@@ -1,3 +1,6 @@
+# How to run
+Download the repository on your system then open the terminal in folder and run the command streamlit run app.py then enter the values to predict the output.
+# Approach and working of Project
 This project is based upon the dataset provided on kaggle ( Containing approx 4000 rows). 
 The dataset had a number of columns as km_driven, seller_type, transmission and other information which are correlated to selling_price (as this is a supervised learning task).
 First I removed the duplicate values then performed label encoding on some selected columns but performed target encoding on brand or name column as the number of entries are of wide-range.
